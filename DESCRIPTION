@@ -1,0 +1,20 @@
+Package: MediationData
+Type: Package
+Title: Tools to Detect, Copy and Generate Mediation-Analysis Data
+Version: 0.1.0
+Authors@R: c(person("Jane", "Doe", email = "jane@example.com", role = c("aut", "cre")))
+Description: Utilities to scan directories for mediation-analysis code and related data files,
+    and copy selected files into a designated directory while preserving structure.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+Imports:
+    fs,
+    dplyr,
+    purrr,
+    stringr,
+    tibble,
+    utils,
+    curl
+RoxygenNote: 7.3.2
